@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root{
+    --cor-preto: #000000;
+    --cor-azul-escuro: #223192;
+    --cor-roxo-escuro: #4E0790;
+    --cor-roxo: #5E1E9A;
+    --cor-azul-claro: #6192D2;
+    --cor-rozinha: #ECE5F2;
+    --cor-branco: #fff;
+    --cor-cinza: #b6b6b6;
+    --cor-lilas: #D0C7D8;
+    --cor-branco-gelo: #ECECEC;
+
+    --borda: 1px solid var(--cor-cinza);
+    --borda-aredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+/*SELETOR GERAl*/
+*{
+    font-family: "Libertinus Serif", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* o valor total do tamanho do elemento contra tanto com espaços internos e externo e borda*/
+}
+
+body{
+    background-color: var(--cor-branco);
+}
+
+h1{
+    position: absolute; /*altera a posicão do elemento*/
+    z-index: -1;/**/
+    opacity: 0;
+}
+
+/*formulario*/
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: #ECECEC;
+}
