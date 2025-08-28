@@ -55,18 +55,6 @@ main > div {
     padding: 10px 0;
 }
 
-input[type="file"] {
-    display: none;
-}
-
-.botao-upload {
-    display: flex;
-    justify-content: center;
-    padding: 10px 20px;
-    background: var(--cor-cinza);
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
 
 .botao-upload:hover {
     background: var(--cor-cinza-escuro2);
@@ -77,6 +65,8 @@ input[type="file"] {
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-azul-escuro);
 }
+
+
 
 
 

@@ -39,12 +39,19 @@ h1{
     opacity: 0;
 }
 
+.estilo-formulario {
+    border: var(--borda);
+    width: 100%;
+    background-color: var(--cor-lilas);
+}
+
+
 /*formulario*/
 input{
     width: 100%;
     height: 35px;
     border: var(--borda);
-    background-color: #ECECEC;
+    background-color: var(--cor-rozinha);
 }
 
 .formulario-botao-azul {
@@ -57,3 +64,62 @@ input{
     font-size: var(--tamanho-fonte-sm);
     font-weight: 500;
 }
+
+
+/* cabeçalho - pai*/
+#cabeçalho{
+     width: 100%;   /*100% da janela de visualização*/
+     height: 80px;
+     background-color: var(--cor-lilas);
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     border-bottom: 2px solid var(--cor-azul-escuro);
+}
+
+#cabeçalho > nav { 
+    width: 85%;
+    max-width: 1440px;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+.cabeçalho-acoes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabeçalho-acoes > a {
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil{
+    width: 40px;
+    height: 40px;
+    object-fit: cover; /*Redimensiona a foto*/
+    object-position: center;
+    border-radius: 50%;
+}
+
+/* Respositivo */
+@media only screen and (max-width: 485px){
+    #logo-mobile{
+        display: initial;
+    }
+
+    #logo-desktop{
+        display: none;
+    }
+}
+
+
+
