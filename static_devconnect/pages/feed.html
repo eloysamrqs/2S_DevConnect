@@ -38,7 +38,7 @@
                 </a>
 
                 <a href="#">
-                    <img id="foto-perfil" src="../images/11e3c635-bece-4377-b4bc-f9a5a5dc3807.jpg" alt="foto de perfil">
+                    <img class="foto-perfil" src="../images/11e3c635-bece-4377-b4bc-f9a5a5dc3807.jpg" alt="foto de perfil">
                 </a>
             </div>
 
@@ -110,13 +110,14 @@
              </section>
              <!-- Fim Storys -->
 
+             <!--Inicio cadastro publi-->
              <section id="cadastro-publi" class="">
                 <h2>Publicação</h2>
 
                 <form action="">
-                <textarea name="" id=""></textarea>
+                <textarea name="" id="" placeholder="Digite a descrição do post..."></textarea>
 
-                <div>
+                <footer >
                     <div>
                         <label for="arquivo" class="botao-upload">Faça upload da sua imagem aqui...</label>
                         <input type="file" id="arquivo">
@@ -125,9 +126,47 @@
 
                     <button type="submit" class="formulario-botao-azul">Postar</button>
 
-                </div>
+                </footer>
                 </form>
 
+             </section>
+             <!--Inicio cadastro publi-->
+
+             <section id="publicacoes">
+                <!--inicio card publicacao-->
+                <article class="card-publi">
+                    <header>
+                        <a href="#">
+                            <img class="foto-perfil" src="../images/11e3c635-bece-4377-b4bc-f9a5a5dc3807.jpg" alt="">
+                            goido_joseh
+                        </a>
+                    </header>
+
+                    <figure>
+                        <img  class="imagem-publi" src="../images/baixados (1).jpg" alt="">
+
+                        <figcaption class="descricao-publicacao">
+                            goido_joseh
+                            <p>Boa tarde pexuaaaaal</p>
+                        </figcaption>
+
+                        <div class="interacoes-publicacao">
+                            <button>
+                                <img src="../images/Corcao preto 1.svg" alt="">
+                            </button>
+                            <button>
+                                <img src="../images/comentario.svg" alt="">
+                            </button>
+
+                            <span>678 mil curtidas</span>
+
+                        </div>
+
+                    </figure>
+
+                    <button type="button">Ver mais comentários..</button>
+                </article>
+                <!--fim card publicacao-->
              </section>
         </div> 
     </main>
