@@ -9,7 +9,6 @@
   
 
   .container-flex-publi {
-    background-color: var(--cor-branco);
     width: 90%;
     max-width: 900px;
     display: flex;
@@ -62,6 +61,7 @@
 
   /* secao criar publi */
   #cadastro-publi{
+    background-color: var(--cor-branco);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -124,9 +124,11 @@
 
 .card-publi {
   width: 100%;
+  background-color: var(--cor-branco);
 }
 
 .card-publi > header{
+  background-color: var(--cor-branco);
   display: flex;
   align-items: center;
   padding: 3%;
